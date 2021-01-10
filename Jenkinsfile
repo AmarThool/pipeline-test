@@ -13,5 +13,10 @@ pipeline {
                 print('hello')
             }
         }
+        stage('else..condition.!) {
+              steps {
+                  print('ARe you stupid..why you not proceed with me..!')
+              }
+              }
     }
 }
